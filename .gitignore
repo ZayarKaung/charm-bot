@@ -1,0 +1,13 @@
+# Secrets and private data
+.env
+*.db
+*.db.bak
+*.db-journal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Built zips (python make_zip.py)
+dist/
